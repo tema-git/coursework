@@ -135,4 +135,4 @@ all = [f for f in listdir(mypath) if isfile(join(mypath, f))]
 for i in all:
     answer.append(parser(i))
 
-pd.DataFrame(answer).to_csv('C:/coursework/pars/parser/output_river.csv')
+pd.DataFrame(answer).to_csv('/Users/r.o/myproject/myproject/myproject/output_river.csv')
